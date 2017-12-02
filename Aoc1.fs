@@ -1,4 +1,4 @@
-module Tests
+module Aoc1Tests
 
 open Expecto
 

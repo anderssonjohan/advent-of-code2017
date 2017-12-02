@@ -4,8 +4,8 @@ My attempt to learn some F# by solving [Advent of Code 2017](https://adventofcod
 
 ## How to run
 
-I use Expecto with [.Net Core 2.0.3](https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.3.md).
-After installing, you should be able to run with:
+I use [Expecto](https://github.com/haf/expecto) with [.Net Core 2.0.3](https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.3.md).
+With dotnet core in place, you should be able to run with:
 
 ```
 $ dotnet watch run
@@ -15,3 +15,5 @@ watch : Started
 watch : Exited
 watch : Waiting for a file to change before restarting dotnet...
 ```
+
+Tests will rerun when files are modified when using the [dotnet watch](https://github.com/aspnet/DotNetTools/blob/dev/src/Microsoft.DotNet.Watcher.Tools/README.md) command.

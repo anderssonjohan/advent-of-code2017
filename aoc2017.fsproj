@@ -8,6 +8,7 @@
   <ItemGroup>
     <Compile Include="Aoc1.fs" />
     <Compile Include="Aoc2.fs" />
+    <Compile Include="Aoc3.fs" />
     <Compile Include="Main.fs" />
   </ItemGroup>
 
